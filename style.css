@@ -1,3 +1,6 @@
+img{
+  max-width: 1495px;
+}
 body{
   background-color: rgba(205, 255, 243, 0.507);
 }
@@ -31,6 +34,8 @@ li a:hover{
   grid-gap: 15px;
   padding-left: 5px;
   padding-right: 10px;
+  max-width: 1500px;
+  min-width: 800px;
 
 }
 .header{
@@ -51,7 +56,7 @@ li a:hover{
 }
 .box{
   background-color: rgba(238, 169, 137, 0.486);
-  border-radius: 1%;
+  border-radius: 2px;
   padding: 5px;
 
 }
@@ -68,7 +73,9 @@ li a:hover{
   text-align: center;
   font-size: 1.3em;
   float: left;
-  margin-right: 5%;
+  border-radius: 3px;
+  margin: 10px;
+  min-width: 150px;
 }
 .ingTitle{
   padding-bottom: 10px;
@@ -85,9 +92,18 @@ li a:hover{
 }
 .right{
   font-size: 1.3em;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.664);
+  border-radius: 3px;
+  float: right;
+  width: 70%;
+  text-align: center;
+  margin: 15px 5% 0px 0px;
+  
 }
 .instructions{
   font-style: italic;
+  text-align: left;
 }
 .meat{
   background-color: rgb(246, 146, 146);
@@ -101,6 +117,6 @@ li a:hover{
   background-color: rgba(247, 255, 130, 0.548);
 }
 .foodDescript{
-  
+  padding:15px;
 }
   
