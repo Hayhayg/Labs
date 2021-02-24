@@ -1,5 +1,5 @@
-img{
-  max-width: 1495px;
+.head{
+  width: 100%;
 }
 body{
   background-color: rgba(205, 255, 243, 0.507);
@@ -9,7 +9,11 @@ h1{
   font-size: 3.3em;
   text-align: center;
 }
+h3{
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3em;
 
+}
 .nav{
   list-style-type: none;
   text-align: center;
@@ -34,8 +38,8 @@ li a:hover{
   grid-gap: 15px;
   padding-left: 5px;
   padding-right: 10px;
-  max-width: 1500px;
-  min-width: 800px;
+  max-width: 2000px;
+  min-width: 880px;
 
 }
 .header{
@@ -71,7 +75,7 @@ li a:hover{
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.664);
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   float: left;
   border-radius: 3px;
   margin: 10px;
@@ -84,6 +88,7 @@ li a:hover{
   border-bottom: 1px solid black;
   padding-top: 15px;
   text-align: center;
+
 }
 .ingredients{
   list-style: none;
@@ -91,22 +96,31 @@ li a:hover{
   padding: 0px 10px 10px 10px;
 }
 .right{
-  font-size: 1.3em;
+  font-size: 1.2em;
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.664);
   border-radius: 3px;
   float: right;
   width: 70%;
   text-align: center;
-  margin: 15px 5% 0px 0px;
+  margin: 10px 5% 0px 0px;
+  padding-right: 15px;
   
+}
+.insTitle{
+  padding-bottom: 10px;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  padding-top: 15px;
+  text-align: center;
 }
 .instructions{
   font-style: italic;
   text-align: left;
 }
 .meat{
-  background-color: rgb(246, 146, 146);
+  background-color: rgba(246, 146, 146, 0.719);
 
 }
 .veggie{
@@ -118,5 +132,18 @@ li a:hover{
 }
 .foodDescript{
   padding:15px;
+  font-size: 1.1em;
+  border: 1px solid rgba(128, 128, 128, 0.664);
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
 }
-  
+.grilled{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border: 3px solid white;
+
+  } 
