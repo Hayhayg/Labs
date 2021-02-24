@@ -1,24 +1,25 @@
 body{
   background-color: rgba(205, 255, 243, 0.507);
 }
-
-
 h1{
-color: rgb(200, 41, 41);
-font-size: 3.3em;
+  color: rgb(200, 41, 41);
+  font-size: 3.3em;
+  text-align: center;
 }
-ul{
+
+.nav{
   list-style-type: none;
   text-align: center;
-  }
+  padding: 0;
+  padding-left: 15px;
+}
 li a{
   font-size: 1.2em;
   display: block;
-  background-color: rgba(157, 170, 199, 0.438);
-  padding-left: 5px;
-  padding-right: 20px;
-  border: 1px solid rgba(73, 73, 112, 0.212);
-  text-decoration: none;
+  background-color: rgba(87, 184, 174, 0.637);
+  border: 1px solid rgba(146, 146, 224, 0.212);
+  padding: 5px;
+  width: 90px;
 }
 li a:hover{
   background-color: steelblue;
@@ -26,18 +27,66 @@ li a:hover{
 }
 .wrapper{
   display: grid;
-  grid-template-columns: 10% 90%;
-  grid-gap: 5px;
+  grid-template-columns: 140px 90% max-content;
+  grid-gap: 15px;
+  padding-left: 5px;
+  padding-right: 10px;
+
+}
+.header{
+  grid-column: 1/ span 2;
+  grid-row: 1;
+}
+.side{
+  grid-column: 1;
+  grid-row: 2;
+}
+.content{
+  grid-column: 2;
+  grid-row: 2;
+}
+.bottom{
+  grid-column: 1/ span 2;
+  grid-row: 3;
+}
+.box{
+  background-color: rgba(238, 169, 137, 0.486);
+  border-radius: 1%;
+  padding: 5px;
+
 }
 .recipeTitle{
   color: black;
   font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.item1{
-  padding-left: 50px;
+.left{  
+  width: 20%;
+  max-width: 300px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.664);
   text-align: center;
+  font-size: 1.3em;
 }
-.item2{
-  padding-left: 50px;
-  text-justify: 
+.ingredients{
+  list-style: none;
+  text-align: left;
+  padding: 40px 10px 10px 10px;
+  border-top: 2px solid black;
 }
+.right{
+
+}
+.meat{
+  background-color: rgb(246, 146, 146);
+
+}
+.veggie{
+  background-color: rgb(165, 255, 130);
+
+}
+.dairy{
+  background-color: rgba(247, 255, 130, 0.548);
+}
+
+  

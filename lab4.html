@@ -7,39 +7,47 @@
     <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    
-    <header>
-      <img src="images/head.jpg"
 
+     <div class="wrapper">
+
+    <header class="box header">
+      <img src="images/head.jpg"/>
     </header>
 
-    <nav>
-   
-
-    </nav>
-
-    <main class="wrapper">
-    <ul>
+    <nav class="box side">
+    <ul class="nav">
       <li><a href="index.html">Home</a> </li>
       <li><a href="lab1.html">Lab 1</a> </li>
       <li><a href="lab2.html">Lab 2</a> </li>
       <li><a href="lab3.html">Lab 3</a> </li>
       <li><a href="lab4.html">Lab 4</a> </li>
-    </ul>
-    
-    <div>
-    <h1 class="recipeTitle item1">Lab 4 - Tomato Bacon Grilled Cheese</h1>
-    <p class="item2">A yummy meal that you and your kids will love! A simple golden brown grilled cheese sandwich with teh twist of bacon and tomato. Hope you enjoy!</p>
-    </div>
+    </ul>    
+    </nav>
 
+    <main class="box content">
+    <h1 class="recipeTitle item1">Lab 4 - Tomato Bacon Grilled Cheese</h1>
+
+    <p>A yummy meal that you and your kids will love! A simple golden brown grilled cheese sandwich with the twist of bacon and tomato. Hope you enjoy!</p>
+    <section class="left">
+    <h3>Ingredients</h3>
+    <ul class="ingredients">
+      <li class="meat">8 slices bacon</li>
+      <li class="dairy">1/4 cut butter, softened</li>
+      <li>8 slices white bread</li>
+      <li class="dairy">9 slices American cheese</li>
+      <li class="veggie">8 slices tomato</li>
+    </ul>
+      </section>
+  <p>Instructions: ingredients should be displayed as an unordered list, with no bullets. Meat ingredients should have a light red background color, vegetables should have a light green background, and dairy products should have a light yellow. The title should be in a sans serif font of your choice, and the instructions should have a heading “Instructions” and the font for the instructions should be italic. </p>
     </main>
 
-    <footer>
+    <footer class="box bottom">
     <h1>CPSC 2125 Lab 4</h1>
     </footer>
 
+    </div>
 
-
-    <script src="script.js"></script>
   </body>
+      <script src="script.js"></script>
+
 </html>
