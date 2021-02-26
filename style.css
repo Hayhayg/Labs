@@ -1,32 +1,38 @@
-.head{
+.headPic{
   width: 100%;
 }
 body{
   background-color: rgba(205, 255, 243, 0.507);
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
   color: rgb(200, 41, 41);
   font-size: 3.3em;
   text-align: center;
 }
+h2{
+  color: black;
+  font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
 h3{
   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.3em;
-
 }
-.nav{
+.links{
   list-style-type: none;
   text-align: center;
-  padding: 0;
-  padding-left: 15px;
+  padding-left:  15px;
 }
 li a{
   font-size: 1.2em;
   display: block;
   background-color: rgba(87, 184, 174, 0.637);
   border: 1px solid rgba(146, 146, 224, 0.212);
-  padding: 5px;
+  padding: 10px 5px 10px 5px;
   width: 90px;
+  text-decoration: none;
 }
 li a:hover{
   background-color: steelblue;
@@ -40,7 +46,6 @@ li a:hover{
   padding-right: 10px;
   max-width: 2000px;
   min-width: 880px;
-
 }
 .header{
   grid-column: 1/ span 2;
@@ -62,16 +67,10 @@ li a:hover{
   background-color: rgba(238, 169, 137, 0.486);
   border-radius: 2px;
   padding: 5px;
-
-}
-.recipeTitle{
-  color: black;
-  font-size: 3em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .left{  
   width: 20%;
-  max-width: 300px;
+  max-width: 250px;
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.664);
   text-align: center;
@@ -80,20 +79,23 @@ li a:hover{
   border-radius: 3px;
   margin: 10px;
   min-width: 150px;
+  padding-top: 3px;
 }
-.ingTitle{
+.foodSubtitle{
   padding-bottom: 10px;
   width: 90%;
   margin: 0 auto;
   border-bottom: 1px solid black;
   padding-top: 15px;
   text-align: center;
-
 }
 .ingredients{
   list-style: none;
   text-align: left;
   padding: 0px 10px 10px 10px;
+}
+.ingredients li{
+  padding: 5px 0px 5px 10px;
 }
 .right{
   font-size: 1.2em;
@@ -104,16 +106,7 @@ li a:hover{
   width: 70%;
   text-align: center;
   margin: 10px 5% 0px 0px;
-  padding-right: 15px;
-  
-}
-.insTitle{
-  padding-bottom: 10px;
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 1px solid black;
-  padding-top: 15px;
-  text-align: center;
+  padding: 3px 15px 5px 0px;
 }
 .instructions{
   font-style: italic;
@@ -121,11 +114,9 @@ li a:hover{
 }
 .meat{
   background-color: rgba(246, 146, 146, 0.719);
-
 }
 .veggie{
   background-color: rgb(165, 255, 130);
-
 }
 .dairy{
   background-color: rgba(247, 255, 130, 0.548);
@@ -138,7 +129,7 @@ li a:hover{
   background-color: white;
   margin: 0 auto;
 }
-.grilled{
+#grilledPic{
   width: 30%;
   display: block;
   margin-left: auto;
