@@ -1,0 +1,88 @@
+html, body{
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  height: 100%;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+h2{
+  font-weight: 500;
+}
+h3{
+  font-style: italic;
+  font-size: .9em;
+  font-weight: 400;
+}
+p{
+  font-weight: 400;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 25% 25% 1fr;
+  grid-gap: 10px;
+  min-width: 700px;
+  background-color: rgba(134, 134, 134, 0.486);
+}
+.box{
+  border-radius: 3px;
+  padding: 15px;
+  
+
+}
+header{
+  grid-column: 1/ span 3;
+  grid-row: 1;
+  background-color: rgb(189, 47, 47);
+}
+nav{
+  grid-column: 1/ span 3;
+  grid-row: 2;
+  background-color: rgb(245, 153, 153);
+  overflow: hidden;
+  
+}
+li{
+  float: left;
+  list-style-type: none;
+  
+}
+li a{
+  background-color: rgb(253, 222, 222);
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  border: 1px solid rgb(240, 189, 189);
+ 
+}
+li a:hover{
+  background-color: steelblue;
+  color:white;
+}
+section{
+  background-color: rgb(103, 216, 146);
+  grid-column: 1/ span 2;
+  grid-row: 3;
+}
+article{
+  background-color: rgb(88, 177, 236);
+  grid-column: 1/ span 2;
+  grid-row: 4;
+}
+aside{
+  background-color: rgb(217, 133, 224);
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column: 3;
+  text-align: center;
+  
+}
+footer{
+  background-color: rgb(204, 35, 35);
+  grid-column: 1/ span 3;
+  grid-row: 5;
+  text-align: center;
+  color: white;
+}
